@@ -1,0 +1,118 @@
+	/*FONTS*/
+	@font-face
+	{
+    font-family: 'multicore';
+    src: url('../4 - fonts/1 - multicore pro/multicolore_pro-webfont.woff2') format('woff2'),
+         url('../4 - fonts/1 - multicore pro/multicolore_pro-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+	}
+
+	@font-face
+	{
+    font-family: 'quicksand';
+    src: url('../4 - fonts/2 - quicksand/roboto-regular-webfont.woff2') format('woff2'),
+         url('../4 - fonts/2 - quicksand/roboto-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+	}
+
+	/*FONTS*/
+	/*VARS*/
+
+	:root
+	{
+		--color1: #301221; /*Page Backgrounds Color*/
+		--color2: #5f787b; /*Blog Section Background Color #50506E*/
+		--color3: #e7e4e3; /*Text Color #C4F0C2*/
+		--color4: #1E1E3C; /*Border Color*/
+		--line: 0px;
+	}
+
+	.scifi_image
+	{
+  		width:35em;
+		height:35em;
+	}
+
+	/* unvisited link */
+	a:link 
+	{
+  	color: var(--color3);
+  	text-decoration: none;
+	}
+
+	/* visited link */
+	a:visited 
+	{
+  	color: var(--color3);
+  	text-decoration: none;
+	}
+
+	/* mouse over link */
+	a:hover 
+	{
+  	color: var(--color3);
+  	text-decoration: none;
+	}
+
+	/* selected link */
+	a:active 
+	{
+  	color: var(--color3);
+  	text-decoration: none;
+	}
+
+	/*VARS*/
+	/*TEXT*/
+
+	.text1	   
+	{
+		font-family: multicore;
+		color: var(--color3);
+	}
+
+	.text2		   
+	{
+		font-family: quicksand;
+		font-size: 20px;
+		color: var(--color3);
+	}
+
+	/*TEXT*/
+	/*BODY*/
+
+	.Page-Background-color   
+	{
+		background: linear-gradient(180deg, rgba(255,164,241,1) 0%, rgba(50,255,200,1) 100%);
+		background-repeat: ;
+	}
+
+	.Content-Body
+	{
+		background-color: var(--color2);
+	}
+
+.border-gradient 
+{
+  border: 10px solid;
+  border-image-slice: 1;
+  border-width: 5px;
+}
+
+.border-gradient-purple 
+{
+  border-image-source: linear-gradient(to top, #ffa4f1, #32ffc8);
+}
+
+.profile-image
+{
+	float: left;
+	max-width: 10%;
+	max-height: 10%;
+}
+
+
+	/*BODY*/
+	 
+	 
