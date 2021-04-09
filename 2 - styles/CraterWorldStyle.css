@@ -80,6 +80,15 @@
 	}
 
 	/*TEXT*/
+	/*IMAGES*/
+
+	.gif1080
+	{
+		width: 1920px;
+		height: 1080px;
+	}
+
+	/*IMAGES*/
 	/*BODY*/
 
 	.Page-Background-color   
@@ -93,24 +102,24 @@
 		background-color: var(--color2);
 	}
 
-.border-gradient 
-{
-  border: 10px solid;
-  border-image-slice: 1;
-  border-width: 5px;
-}
+	.border-gradient 
+	{
+  	border: 10px solid;
+  	border-image-slice: 1;
+  	border-width: 5px;
+	}
 
-.border-gradient-purple 
-{
-  border-image-source: linear-gradient(to top, #ffa4f1, #32ffc8);
-}
+	.border-gradient-purple 
+	{
+  	border-image-source: linear-gradient(to top, #ffa4f1, #32ffc8);
+	}
 
-.profile-image
-{
+	.profile-image
+	{
 	float: left;
 	max-width: 10%;
 	max-height: 10%;
-}
+	}
 
 
 	/*BODY*/
