@@ -82,10 +82,10 @@
 	/*TEXT*/
 	/*IMAGES*/
 
-	.gif1080
+	img.gif1080
 	{
 		width: 1920px;
-		height: 1080px;
+		height: auto;
 	}
 
 	/*IMAGES*/
